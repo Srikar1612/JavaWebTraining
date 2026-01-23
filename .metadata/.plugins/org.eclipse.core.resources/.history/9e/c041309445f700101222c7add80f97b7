@@ -1,0 +1,24 @@
+package com.ibm.classObjects;
+
+import com.ibm.classObjects.mammals.Man;
+
+public class Application
+{
+	public static void main( String[] args )
+	{
+		Man man = new Man();
+		man.leftEye.color="balck";
+		man.rightEye.color="black";
+		man.leftEye.power=1.0f;
+		man.rightEye.power=1.0f;
+		String redString="\u001B[31m";
+		String resetString="\u001B[0m";
+		String greenString="\u001B[32m";
+		String yellowString="\u001B[33m";
+		String blueString="\u001B[34m";
+		System.out.println(redString+"blue"+resetString);
+		System.out.println(greenString+"yellow"+resetString);
+		System.out.println(yellowString+"green"+resetString);
+		System.out.println(blueString+"red"+resetString);
+	}
+}

@@ -1,0 +1,30 @@
+package com.ibm.arrays;
+
+class Point {
+	public int x;
+	public int y;
+	public Point(int x, int y) {
+		this.x=x;
+		this.y=y;
+	}
+	
+	@Override
+	public String toString() {
+		return "[x: "+x+", y: "+y+"]";
+	}
+}
+
+public class Application
+{
+	public static void main( String[] args )
+	{
+		int[][] numbers;
+		numbers=new int[3][2];
+		numbers[1][1]=4;
+		for(int[] nums:numbers)
+			for(int  num:nums)
+				System.out.print(num+" ");
+	}
+
+	
+}

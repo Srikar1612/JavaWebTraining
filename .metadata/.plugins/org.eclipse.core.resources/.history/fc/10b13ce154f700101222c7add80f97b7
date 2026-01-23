@@ -1,0 +1,21 @@
+package com.ibm.arrays;
+
+class point {
+	public int x;
+	public int y;
+	public point(int x, int y) {
+		this.x=x;
+		this.y=y;
+	}
+}
+
+public class Application
+{
+	public static void main( String[] args )
+	{
+		Integer[] numbers=new Integer[10];
+		numbers[2]=new Integer(4);
+		for(Integer num:numbers)
+			System.out.println("\u001B[32m"+num);
+	}
+}

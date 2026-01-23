@@ -1,0 +1,29 @@
+package com.ibm.encapsulation;
+
+import exception.InvalidAgeException;
+
+class Student{
+	private int age;
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) throws InvalidAgeException {
+		if(age<=0)
+			throw new InvalidAgeException("Not a valid age");
+		this.age = age;
+	}
+	
+}
+
+public class Application
+{
+	public static void main( String[] args )
+	{
+		Student student=new Student();
+		student.setAge(-1);
+		System.out.print(student.getAge());
+		
+	}
+}

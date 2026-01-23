@@ -1,0 +1,23 @@
+package com.ibm.enums;
+
+import static com.ibm.enums.types.Apples.*;
+
+public class Application
+{
+	public static void main( String[] args )
+	{
+		Apples apples;
+		apples=Apples.FUJI;
+		System.out.println(apples);
+		
+		System.out.println("--------------------------------");
+		
+		Apples[] apples2 = Apples.values();
+		for(Apples apple: apples2) {
+			System.out.println(apple+" COSTS: "+apple.getPrice());
+		}
+		System.out.println("--------------------------------");
+		System.out.println(Apples.valueOf("FUJI"));
+		
+	}
+}
