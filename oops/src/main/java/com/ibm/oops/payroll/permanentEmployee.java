@@ -7,5 +7,9 @@ public class permanentEmployee extends Employee {
 		System.out.println("Salary");
 		
 	}
+	
+	public void transportation() {
+		System.out.println("Transportation Provided");
+	}
 
 }

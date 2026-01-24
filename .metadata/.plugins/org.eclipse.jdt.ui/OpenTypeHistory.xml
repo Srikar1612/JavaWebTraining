@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=classObjects/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.classObjects.mammals.organs{Eye.java[Eye" modifiers="1" timestamp="1768993480122"/>
-    <typeInfo handle="=classObjects/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.classObjects.mammals{Human.java[Human" modifiers="1" timestamp="1768992998500"/>
+    <typeInfo handle="=classObjects/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.classObjects.mammals.organs{Eye.java[Eye" modifiers="1" timestamp="1768994080890"/>
+    <typeInfo handle="=classObjects/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.classObjects.mammals{Human.java[Human" modifiers="1" timestamp="1768994295825"/>
+    <typeInfo handle="=encapsulation/C:\/Program Files\/Java\/jre1.8.0_481\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1766043034000"/>
+    <typeInfo handle="=encapsulation/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.encapsulation.pack1{Base1.java[Base1" modifiers="1" timestamp="1769073536164"/>
+    <typeInfo handle="=oops/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.oops.payroll{Employee.java[Employee" modifiers="1025" timestamp="1769080513924"/>
 </typeInfoHistroy>

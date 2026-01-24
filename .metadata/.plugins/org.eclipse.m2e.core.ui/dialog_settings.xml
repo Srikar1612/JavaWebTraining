@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\exceptions\src\main\java\com\ibm\exceptions\Application.java"/>
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\enums\src\main\java\com\ibm\enums\Application.java"/>
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\staticfeature\src\main\java\com\ibm\staticfeature\Application.java"/>
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\arrays\src\main\java\com\ibm\arrays\Application.java"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\FirstApp\src\com\ibm\client\cui\MainApp.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,12 +30,26 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.threads"/>
+			<item value="com.ibm.exceptions"/>
+			<item value="com.ibm.oops"/>
+			<item value="com.ibm.enums"/>
+			<item value="com.ibm.encapsulation"/>
+			<item value="com.ibm.staticfeature"/>
+			<item value="com.ibm.arrays"/>
 			<item value="com.ibm.classObjects"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="threads"/>
+			<item value="exceptions"/>
+			<item value="oops"/>
+			<item value="enums"/>
+			<item value="encapsulation"/>
+			<item value="staticfeature"/>
+			<item value="arrays"/>
 			<item value="classObjects"/>
 		</list>
 		<list key="projectNameTemplate">
