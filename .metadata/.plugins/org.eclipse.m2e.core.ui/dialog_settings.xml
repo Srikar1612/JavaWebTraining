@@ -18,7 +18,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -30,6 +30,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.collections"/>
+			<item value="com.ibm.objectclass"/>
+			<item value="com.ibm.interfaces"/>
 			<item value="com.ibm.threads"/>
 			<item value="com.ibm.exceptions"/>
 			<item value="com.ibm.oops"/>
@@ -43,6 +46,9 @@
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="collections"/>
+			<item value="objectclass"/>
+			<item value="interfaces"/>
 			<item value="threads"/>
 			<item value="exceptions"/>
 			<item value="oops"/>
