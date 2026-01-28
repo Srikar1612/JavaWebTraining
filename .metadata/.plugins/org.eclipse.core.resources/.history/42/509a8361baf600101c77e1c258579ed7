@@ -1,5 +1,0 @@
-package com.ibm.classObjects.mammals.organs;
-
-public class Eye {
-	String color;
-}

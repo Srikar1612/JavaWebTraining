@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\threads\src\main\java\com\ibm\threads\Application.java"/>
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\collections\src\main\java\com\ibm\collections\Application.java"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\exceptions\src\main\java\com\ibm\exceptions\Application.java"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\enums\src\main\java\com\ibm\enums\Application.java"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\staticfeature\src\main\java\com\ibm\staticfeature\Application.java"/>
@@ -18,7 +20,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -30,33 +32,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.ibm.collections"/>
-			<item value="com.ibm.objectclass"/>
-			<item value="com.ibm.interfaces"/>
-			<item value="com.ibm.threads"/>
-			<item value="com.ibm.exceptions"/>
-			<item value="com.ibm.oops"/>
-			<item value="com.ibm.enums"/>
-			<item value="com.ibm.encapsulation"/>
-			<item value="com.ibm.staticfeature"/>
-			<item value="com.ibm.arrays"/>
-			<item value="com.ibm.classObjects"/>
+			<item value="com.ibm.iostreams"/>
+			<item value="com.ibm.lambda"/>
+			<item value="com.ibm.assignments"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
-			<item value="collections"/>
-			<item value="objectclass"/>
-			<item value="interfaces"/>
-			<item value="threads"/>
-			<item value="exceptions"/>
-			<item value="oops"/>
-			<item value="enums"/>
-			<item value="encapsulation"/>
-			<item value="staticfeature"/>
-			<item value="arrays"/>
-			<item value="classObjects"/>
+			<item value="iostreams"/>
+			<item value="lambda"/>
+			<item value="assignments"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
