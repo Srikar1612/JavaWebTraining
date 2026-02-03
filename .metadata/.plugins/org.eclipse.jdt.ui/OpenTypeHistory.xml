@@ -8,4 +8,5 @@
     <typeInfo handle="=interfaces/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.interfaces{Flyer.java[Flyer" modifiers="513" timestamp="1769486739307"/>
     <typeInfo handle="=interfaces/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.interfaces{Sailor.java[Sailor" modifiers="513" timestamp="1769487752742"/>
     <typeInfo handle="=spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.spring.services{PaymentService.java[PaymentService" modifiers="513" timestamp="1770015006428"/>
+    <typeInfo handle="=springjdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springjdbc.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1770107565541"/>
 </typeInfoHistroy>

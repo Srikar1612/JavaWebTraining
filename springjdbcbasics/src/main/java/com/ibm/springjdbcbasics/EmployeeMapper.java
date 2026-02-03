@@ -1,0 +1,24 @@
+package com.ibm.springjdbcbasics;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.ibm.springjdbcbasics.model.Employee;
+
+public class EmployeeMapper implements RowMapper<Employee> {
+
+	
+	@Override
+	public Employee mapRow(ResultSet resultSet, int rowNum) throws SQLException {
+		// TODO Auto-generated method stub
+		Employee employee = new Employee();
+		employee.setId(resultSet.getInt("id"));
+		employee.setFirstName(resultSet.getString("firstName"));
+		employee.setLastName(resultSet.getString("lastName"));
+		employee.setSalary(resultSet.getInt("salary"));
+		return employee;
+	}
+
+}
