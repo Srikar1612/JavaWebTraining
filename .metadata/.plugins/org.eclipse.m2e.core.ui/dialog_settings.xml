@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\spring\src\main\java\com\ibm\spring\Application.java"/>
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\spring\src\main\java\com\ibm\spring\services\UPIService.java"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\threads\src\main\java\com\ibm\threads\Application.java"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\collections\src\main\java\com\ibm\collections\Application.java"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\exceptions\src\main\java\com\ibm\exceptions\Application.java"/>
@@ -20,7 +22,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -32,6 +34,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.annotations"/>
+			<item value="com.ibm.internationalization"/>
 			<item value="com.ibm.iostreams"/>
 			<item value="com.ibm.lambda"/>
 			<item value="com.ibm.assignments"/>
@@ -40,6 +44,8 @@
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="annotations"/>
+			<item value="internationalization"/>
 			<item value="iostreams"/>
 			<item value="lambda"/>
 			<item value="assignments"/>
@@ -74,5 +80,9 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
