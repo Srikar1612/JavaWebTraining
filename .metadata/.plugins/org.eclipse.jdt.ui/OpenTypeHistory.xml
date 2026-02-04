@@ -9,4 +9,6 @@
     <typeInfo handle="=interfaces/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.interfaces{Sailor.java[Sailor" modifiers="513" timestamp="1769487752742"/>
     <typeInfo handle="=spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.spring.services{PaymentService.java[PaymentService" modifiers="513" timestamp="1770015006428"/>
     <typeInfo handle="=springjdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springjdbc.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1770107565541"/>
+    <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springmvc.services{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1770186607023"/>
+    <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springmvc.Dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1770187541863"/>
 </typeInfoHistroy>
