@@ -11,4 +11,6 @@
     <typeInfo handle="=springjdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springjdbc.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1770107565541"/>
     <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springmvc.services{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1770186607023"/>
     <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springmvc.Dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1770187541863"/>
+    <typeInfo handle="=springboot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springboot.repository{EmployeeRepository.java[EmployeeRepository" modifiers="513" timestamp="1770204917973"/>
+    <typeInfo handle="=springboot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springboot.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1770205073300"/>
 </typeInfoHistroy>
