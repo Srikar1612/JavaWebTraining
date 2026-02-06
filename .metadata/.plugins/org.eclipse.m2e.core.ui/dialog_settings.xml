@@ -35,6 +35,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.unittesting"/>
 			<item value="com.ibm.springmvc"/>
 			<item value="com.ibm.springjdbc"/>
 		</list>
@@ -42,6 +43,7 @@
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="unittesting"/>
 			<item value="springmvc"/>
 			<item value="springjdbc"/>
 		</list>
@@ -82,6 +84,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\SrikarVinjamuri\eclipse-workspace\employeemanagement"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace"/>
 			<item value="C:\SrikarVinjamuri\eclipse-workspace\springboot"/>
 		</list>
