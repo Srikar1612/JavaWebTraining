@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onclick="click()">
+    <form id="form">
+        <div id="div">
+            <input type="radio" name="gender" value="male" onclick="fun(event)"/>Male
+            <input type="radio" name="gender" value="female" onclick="fun(event)"/>Female
+        </div>
+        <select>
+            <option selected disabled>Select</option>
+            <option>First</option>
+            <option>Second</option>
+            <option>Third</option>
+        </select>
+    </form>
+    <script>
+    function fun(e){
+        e.stopPropagation();
+        var gender = document.querySelector('input[name="gender"]:checked');
+        if(gender.value==="male"){
+            document.body.style.backgroundColor = "lightblue";
+        } else {
+            document.body.style.backgroundColor = "pink";
+        }
+        document.getElementById("div").style.display = "none";
+        
+    }
+    function click(){
+        var div = document.getElementById("div");
+        if(div.style.display === "none" || div.style.display === "")
+            div.style.display = "block";
+        else
+            div.style.display = "none"
+    }
+</script>
+
+
+</body>
+
+</html>
