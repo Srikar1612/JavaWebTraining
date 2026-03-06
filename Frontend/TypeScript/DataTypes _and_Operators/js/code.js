@@ -1,0 +1,16 @@
+var pending = true;
+var notPending = false;
+var hasError = false;
+var hasCompleted = true;
+var result1 = hasCompleted && hasError;
+console.log(result1);
+var result2 = hasCompleted || hasError;
+console.log(result2);
+var skills1 = ["Problem Solving", "Software Design", "Programming"];
+var skills2 = ["Problem Solving", "Software Design", "Programming"];
+var skills3 = [];
+console.log(skills2);
+skills3[0] = "Problem Solving";
+skills3[1] = "Programming";
+skills3.push("Software Design");
+console.log(skills3);
